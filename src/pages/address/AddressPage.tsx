@@ -3,7 +3,7 @@ import './style.scss'
 
 const AddressPage: React.FC = () => {
   return (
-    <aside>
+    <aside className="address-page">
       <h2>Address page</h2>
     </aside>
   )

@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import MenuItem from './item/MenuItem'
 import { HashRouter as Router, Route, Link, Switch } from 'react-router-dom'
 
@@ -13,8 +13,12 @@ const Menu: React.FC = () => {
       <nav>
         <h3>Меню</h3>
         <ul>
-          <MenuItem image={MenuSvg} title="Главная" />
-          <MenuItem image={SearchSvg} title="Поиск адресов" />
+          <Link to="/">
+            <MenuItem image={MenuSvg} title="Главная" />
+          </Link>
+          <Link to="/address">
+            <MenuItem image={SearchSvg} title="Поиск адресов" />
+          </Link>
         </ul>
       </nav>
     </aside>

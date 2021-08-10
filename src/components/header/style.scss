@@ -4,6 +4,9 @@
   background-color: #4f27bf;
   display: flex;
   justify-content: center;
+  flex-shrink: 0;
+  position: absolute;
+  top: 0;
 }
 
 .main-header-content {
