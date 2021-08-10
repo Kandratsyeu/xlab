@@ -1,7 +1,15 @@
 import React from 'react'
+import Header from './components/header/Header'
+import Menu from './components/menu/Menu'
+import './style.scss'
 
 const App = () => {
-  return <h1>Hi!</h1>
+  return (
+    <>
+      <Header />
+      <Menu />
+    </>
+  )
 }
 
 export default App
