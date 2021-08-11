@@ -1,6 +1,6 @@
 import React from 'react'
 import MenuItem from './item/MenuItem'
-import { HashRouter as Router, Route, Link, Switch } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 import './style.scss'
 
