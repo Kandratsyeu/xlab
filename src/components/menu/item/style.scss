@@ -3,7 +3,12 @@
   align-items: center;
   cursor: pointer;
   margin-bottom: 40px;
+  padding: 0 32px;
 }
 .main-menu-item span {
   margin-left: 16px;
+}
+.main-menu-item.active {
+  border-right: 6px solid #4f27bf;
+  border-radius: 5px;
 }

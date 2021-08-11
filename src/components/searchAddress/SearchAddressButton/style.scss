@@ -22,3 +22,11 @@
   box-sizing: border-box;
   border: 2px solid white;
 }
+
+.address-search-button:disabled {
+  background: #8673bb;
+}
+
+.address-search-button:disabled:active {
+  border: none;
+}
