@@ -6,6 +6,12 @@ import './style.scss'
 
 import MenuSvg from './item/img/main.svg'
 import SearchSvg from './item/img/search.svg'
+import CalendarSvg from './item/img/calendar.svg'
+import ExitSvg from './item/img/exit.svg'
+import MapSvg from './item/img/map.svg'
+import SettingSvg from './item/img/setting.svg'
+import TablesSvg from './item/img/tables.svg'
+import VidgetSvg from './item/img/vidget.svg'
 
 const Menu: React.FC = () => {
   const [currentPage, setPage] = useState<string>('')
@@ -36,26 +42,38 @@ const Menu: React.FC = () => {
             />
           </Link>
           <MenuItem
-            image={SearchSvg}
-            title="Поиск адресов"
+            image={TablesSvg}
+            title="Таблицы"
             currentPage={currentPage}
             pageSwitcher={pageSwitcher}
           />
           <MenuItem
-            image={SearchSvg}
-            title="Поиск адресов"
+            image={CalendarSvg}
+            title="Календарь"
             currentPage={currentPage}
             pageSwitcher={pageSwitcher}
           />
           <MenuItem
-            image={SearchSvg}
-            title="Поиск адресов"
+            image={MapSvg}
+            title="Карты"
             currentPage={currentPage}
             pageSwitcher={pageSwitcher}
           />
           <MenuItem
-            image={SearchSvg}
-            title="Поиск адресов"
+            image={VidgetSvg}
+            title="Виджеты"
+            currentPage={currentPage}
+            pageSwitcher={pageSwitcher}
+          />
+          <MenuItem
+            image={SettingSvg}
+            title="Настройки"
+            currentPage={currentPage}
+            pageSwitcher={pageSwitcher}
+          />
+          <MenuItem
+            image={ExitSvg}
+            title="Выход"
             currentPage={currentPage}
             pageSwitcher={pageSwitcher}
           />
